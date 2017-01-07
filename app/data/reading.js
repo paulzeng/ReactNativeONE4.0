@@ -1,4 +1,4 @@
-{
+export default {
     "res": 0,
     "data": [
         {

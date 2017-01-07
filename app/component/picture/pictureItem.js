@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         letterSpacing: 8,
         fontSize: commonStyle.PRIMARY_FONT_SIZE,
         color: commonStyle.TEXT_GRAY_COLOR,
-        paddingHorizontal:48
+        paddingHorizontal:20
     },
     editImage: {
         height: 20,

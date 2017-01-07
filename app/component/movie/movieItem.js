@@ -72,7 +72,7 @@ class MovieItem extends Component{
                     style={styles.pic}
                 />
                 <Text style={styles.content}>{data.forward}</Text>
-                <Text style={styles.author}>文/{data.author.user_name}</Text>
+                <Text style={styles.author}>文/{data.author ? data.author.user_name : "" }</Text>
                 <View style={styles.bottomView}>
                     <Image
                         style={styles.priceImage}

@@ -75,7 +75,7 @@ class ReadingItem extends Component{
                 <Text style={styles.category}>-阅读-</Text>
                 <Text style={styles.title}>{data.title}</Text>
                 <View style={styles.driver}/>
-                <Text style={styles.author}>文/{data.author.user_name}</Text>
+                <Text style={styles.author}>文/{data.author ? data.author.user_name : "" }</Text>
                 <Text style={styles.content}>{data.forward}</Text>
                 <Image
                     source = {{uri: data.img_url}}
