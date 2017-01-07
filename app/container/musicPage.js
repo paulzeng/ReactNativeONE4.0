@@ -4,18 +4,25 @@ import {
     StyleSheet,
     Text
 } from 'react-native';
-import NavigationBar from 'react-native-navbar';
+import NavigationBar from '../component/navigationBar';
 import commonStyle from '../style/commonStyle';
 class MusicPage extends Component {
-    render() {
-        const titleConfig = {
-            title: '音乐',
+    getNavigationBarProps() {
+        return {
+            title:'一个音乐',
+            rightButtonImage: require('../image/search.png')
         };
+    }
+
+    onRightPressed(){
+
+    }
+    render() {
         return (
             <View style={{ flex: 1, }}>
                 <NavigationBar
-                    title={titleConfig}
-                    style={commonStyle.titleBar}
+                    navigationBarProps={this.getNavigationBarProps()}
+                    onRightPressed={this.onRightPressed}
                 />
 
             </View>

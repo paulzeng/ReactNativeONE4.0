@@ -5,6 +5,7 @@
 "category": "0"
 "title": "摄影"
 "pic_info": "Schneider"
+"img_url": "http://image.wufazhuce.com/FvbM4weIL46OxkTTCEZ2fcAEoQzd"
 "forward": "浚河和清河流着同一种声音。自由并不慈爱。没什么是完整的，没什么是完结的。没人告诉我这些，但我知道它就在戈登大道上。
 "words_info": "约翰.伯格《我们在此相遇》"
 

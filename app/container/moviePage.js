@@ -4,18 +4,25 @@ import {
     StyleSheet,
     Text
 } from 'react-native';
-import NavigationBar from 'react-native-navbar';
+import NavigationBar from '../component/navigationBar';
 import commonStyle from '../style/commonStyle';
 class MoviePage extends Component {
-    render() {
-        const titleConfig = {
-            title: '电影',
+    getNavigationBarProps() {
+        return {
+            title:'一个阅读',
+            rightButtonImage: require('../image/search.png')
         };
+    }
+
+    onRightPressed(){
+
+    }
+    render() {
         return (
             <View style={{ flex: 1, }}>
                 <NavigationBar
-                    title={titleConfig}
-                    style={commonStyle.titleBar}
+                    navigationBarProps={this.getNavigationBarProps()}
+                    onRightPressed={this.onRightPressed}
                 />
 
             </View>

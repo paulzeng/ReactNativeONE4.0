@@ -6,9 +6,10 @@ import {
     StyleSheet
 } from 'react-native';
 // import getPlatformElevation from './elevation';
-
+const TITLE_COLOR = '#FFFFFF';
 const MAIN_COLOR = '#7294FE';
 const GRAY_COLOR= '#DADADA';
+const TITLE_HEIHT = 48;
 const styles = StyleSheet.create({
     //全局通用的按钮样式
     buttonContainer: {
@@ -35,6 +36,8 @@ export default {
     LIGHT_BLUE_BACKGROUND: '#ECF0FA',//新的主背景色
     MAIN_COLOR,//主色调 蓝色
     GRAY_COLOR,//主色调 灰色
+    TITLE_COLOR,//标题栏 白色
+    TITLE_HEIHT,//标题栏 高度
     LINE_GRAY_COLOR: '#66666619',//分割线 10%透明
     TEXT_COLOR: '#262626',//一级字体颜色 黑色
     TEXT_GRAY_COLOR: '#666666',//二级字体颜色 灰色

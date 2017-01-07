@@ -14,7 +14,7 @@ import commonStyle from '../style/commonStyle';
 
 const styles = StyleSheet.create({
   container: {
-    height: 48,
+    height: commonStyle.TITLE_HEIHT,
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: 'white',
