@@ -8,8 +8,7 @@ const styles = StyleSheet.create({
     container: {
         flex:1,
         width: windowWidth,
-        height: windowHeight - tabHeight * 2 - 38,//假设状态栏的高度是28
-        paddingHorizontal: 40,
+        paddingHorizontal: 20,
         paddingVertical: 10,
     },
     category: {
@@ -26,7 +25,7 @@ const styles = StyleSheet.create({
     pic: {
         height: 200,
         resizeMode: 'cover',
-        marginVertical:100
+        marginVertical:20
     },
     author: {
         fontSize:15,
@@ -40,24 +39,21 @@ const styles = StyleSheet.create({
     shareImage: {
         height: 20,
         width: 20,
-        position: 'absolute',
-        right: 20,
-        bottom: 0,
     },
     priceImage: {
         height: 20,
         width: 20,
-        position: 'absolute',
-        right: 60,
-        bottom: 0,
+        marginRight:20
     },
     bottomView: {
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        paddingLeft: 20,
+        paddingTop: 20,
         alignItems: 'flex-end',
+        justifyContent:'flex-end'
     }
+
 });
 
 class MovieItem extends Component{

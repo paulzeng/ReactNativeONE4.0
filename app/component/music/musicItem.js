@@ -9,8 +9,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         width: windowWidth,
-        height: windowHeight - tabHeight * 2 - 38,//假设状态栏的高度是28
-        paddingHorizontal: 40,
+        paddingHorizontal: 20,
         paddingVertical: 10,
     },
     category: {
@@ -27,7 +26,7 @@ const styles = StyleSheet.create({
     pic: {
         height:200,
         resizeMode:'cover',
-        marginVertical:100
+        marginVertical:20
     },
     subtitle: {
         fontSize: 13,
@@ -49,22 +48,19 @@ const styles = StyleSheet.create({
     },
     bottomView: {
         flexDirection: 'row',
-        paddingLeft: 20,
+        paddingTop: 20,
         alignItems: 'flex-end',
+        alignItems: 'flex-end',
+        justifyContent:'flex-end'
     },
     shareImage: {
         height: 20,
         width: 20,
-        position: 'absolute',
-        right: 0,
-        bottom: 0,
     },
     priceImage: {
         height: 20,
         width: 20,
-        position: 'absolute',
-        right: 50,
-        bottom: 0,
+        marginRight:20
     },
 });
 

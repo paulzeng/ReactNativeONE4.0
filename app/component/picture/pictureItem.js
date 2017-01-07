@@ -9,12 +9,11 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         width: windowWidth,
-        height: windowHeight - tabHeight * 2 - 38,//假设状态栏的高度是28
         paddingBottom: 10
     },
     pic: {
         width: windowWidth,
-        height: 250,
+        height: 200,
         resizeMode: 'cover'
     },
     picInfo: {
@@ -28,7 +27,6 @@ const styles = StyleSheet.create({
         letterSpacing: 8,
         fontSize: commonStyle.PRIMARY_FONT_SIZE,
         color: commonStyle.TEXT_GRAY_COLOR,
-        paddingTop:200,
         paddingHorizontal:48
     },
     editImage: {
@@ -57,6 +55,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         paddingLeft: 20,
         alignItems: 'flex-end',
+        paddingTop:10
     }
 });
 

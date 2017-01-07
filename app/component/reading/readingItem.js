@@ -8,8 +8,7 @@ const styles = StyleSheet.create({
     container: {
         flex:1,
         width: windowWidth,
-        height: windowHeight - tabHeight * 2 - 38,//假设状态栏的高度是28
-        paddingHorizontal: 40,
+        paddingHorizontal: 20,
         paddingVertical: 10,
     },
     category: {
@@ -39,33 +38,28 @@ const styles = StyleSheet.create({
         marginVertical:20
     },
     pic: {
-        flex:1,
         height: 200,
         resizeMode: 'cover',
         justifyContent:'center',
         alignItems:'center',
-        marginTop:100
+        marginTop:20
     },
     shareImage: {
         height: 20,
         width: 20,
-        position: 'absolute',
-        right: 20,
-        bottom: 0,
+
     },
     priceImage: {
         height: 20,
         width: 20,
-        position: 'absolute',
-        right: 60,
-        bottom: 0,
+        marginRight:20
     },
     bottomView: {
         flex: 1,
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        paddingLeft: 20,
+        paddingTop: 10,
         alignItems: 'flex-end',
+        justifyContent:'flex-end'
     }
 });
 
