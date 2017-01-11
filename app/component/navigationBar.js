@@ -12,7 +12,7 @@ import {
   Dimensions
 } from 'react-native';
 import commonStyle from '../style/commonStyle';
-
+import icons from '../image/icons';
 const windowWidth = Dimensions.get('window').width;
 
 const defaultButtonHeight = commonStyle.TITLE_HEIHT - 25;//左侧图片的高度
